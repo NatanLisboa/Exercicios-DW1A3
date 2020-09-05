@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>Exercício 2 - Formulário</title>
+</head>
+<body>
+	<h1>AVALIAÇÃO DO CURSO DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS DO CÂMPUS SÃO PAULO</h1>
+	<form>
+		<fieldset>
+			<legend>Dados pessoais e acadêmicos</legend>
+				<p>*Nome:
+					<input type="text" name="name" size="40" maxlength="100" required="required"/>
+				</p>
+				<p>*Prontuário:
+					<input type="text" name="identifier" size="36" maxlength="12" required=required/>
+				</p>
+				<p>*Data de Nascimento: 
+					<input type="date" name="depart" required=required/>
+				</p>
+				<p>*E-mail:
+					<input type="email" required=required>
+				</p>
+				*Gênero:
+				<p>
+					<input id="male" type="radio" name="gender" value="male" required>
+					<label for="male">Masculino</label>
+					<input id="female" type="radio" name="gender" value="female">
+					<label for="female">Feminino</label>
+					<input id="other" type="radio" name="gender" value="other">
+					<label for="other">Outro</label>
+					<input id="nothing" type="radio" name="gender" value="nothing">
+					<label for="nothing">Prefiro não informar</label>
+				</p>
+				<p>*Período:</p>
+				<select name="period">
+					<option value="firsthalf">1º semestre</option>
+					<option value="secondhalf">2º semestre</option>
+					<option value="thirdhalf">3º semestre</option>
+					<option value="fourthhalf">4º semestre</option>
+					<option value="fifthhalf">5º semestre</option>
+					<option value="sixthhalf">6º semestre</option>
+				</select>
+		</fieldset>
+		<fieldset>
+			<legend>Grade curricular</legend>
+				<p>*Como você avalia a grade curricular do curso?
+				<br>
+				<br>
+				<input id="verybad1" type="radio" name="evaluation1" value="verybad" required>
+				<label for="verybad1">Muito ruim</label>
+				<input id="bad1" type="radio" name="evaluation1" value="bad">
+				<label for="bad1">Ruim</label>
+				<input id="regular1" type="radio" name="evaluation1" value="regular">
+				<label for="regular1">Regular</label>
+				<input id="good1" type="radio" name="evaluation1" value="good">
+				<label for="good1">Boa</label>
+				<input id="verygood1" type="radio" name="evaluation1" value="verygood">
+				<label for="verygood1">Muito boa</label>
+				</p>
+				<br>
+		</fieldset>
+		<fieldset>
+			<legend>Corpo docente</legend>
+				<p>*Como você avalia a qualificação do corpo docente do curso?
+				<br>
+				<br>
+				<input id="verybad2" type="radio" name="evaluation2" value="verybad" required>
+				<label for="verybad2">Muito ruim</label>
+				<input id="bad2" type="radio" name="evaluation2" value="bad">
+				<label for="bad2">Ruim</label>
+				<input id="regular2" type="radio" name="evaluation2" value="regular">
+				<label for="regular2">Regular</label>
+				<input id="good2" type="radio" name="evaluation2" value="good">
+				<label for="good2">Boa</label>
+				<input id="verygood2" type="radio" name="evaluation2" value="verygood">
+				<label for="verygood2">Muito boa</label>
+				</p>
+				<p>*Como você avalia a titulação do corpo docente do curso?
+				<br>
+				<br>
+				<input id="verybad3" type="radio" name="evaluation3" value="verybad" required>
+				<label for="verybad3">Muito ruim</label>
+				<input id="bad3" type="radio" name="evaluation3" value="bad">
+				<label for="bad3">Ruim</label>
+				<input id="regular3" type="radio" name="evaluation3" value="regular">
+				<label for="regular3">Regular</label>
+				<input id="good3" type="radio" name="evaluation3" value="good">
+				<label for="good3">Boa</label>
+				<input id="verygood3" type="radio" name="evaluation3" value="verygood">
+				<label for="verygood3">Muito boa</label>
+				</p>
+				<p>*Como você avalia a didática do corpo docente do curso?
+				<br>
+				<br>
+				<input id="verybad4" type="radio" name="evaluation4" value="verybad" required>
+				<label for="verybad4">Muito ruim</label>
+				<input id="bad4" type="radio" name="evaluation4" value="bad">
+				<label for="bad4">Ruim</label>
+				<input id="regular4" type="radio" name="evaluation4" value="regular">
+				<label for="regular4">Regular</label>
+				<input id="good4" type="radio" name="evaluation4" value="good">
+				<label for="good4">Boa</label>
+				<input id="verygood4" type="radio" name="evaluation4" value="verygood">
+				<label for="verygood4">Muito boa</label>
+				</p>
+				<p>*Como você avalia os materiais utilizados pelo corpo docente do curso?
+				<br>
+				<br>
+				<input id="verybad5" type="radio" name="evaluation5" value="verybad" required>
+				<label for="verybad5">Muito ruim</label>
+				<input id="bad5" type="radio" name="evaluation5" value="bad">
+				<label for="bad5">Ruim</label>
+				<input id="regular5" type="radio" name="evaluation5" value="regular">
+				<label for="regular5">Regular</label>
+				<input id="good5" type="radio" name="evaluation5" value="good">
+				<label for="good5">Boa</label>
+				<input id="verygood5" type="radio" name="evaluation5" value="verygood">
+				<label for="verygood5">Muito boa</label>
+				</p>
+		</fieldset>
+		<fieldset>
+			<legend>Estrutura</legend>
+				<p>*Como você avalia os computadores utilizados em sala de aula?
+				<br> 
+				<br>
+				<input id="verybad6" type="radio" name="evaluation6" value="verybad" required>
+				<label for="verybad6">Muito ruins</label>
+				<input id="bad6" type="radio" name="evaluation6" value="bad">
+				<label for="bad6">Ruins</label>
+				<input id="regular6" type="radio" name="evaluation6" value="regular">
+				<label for="regular6">Regulares</label>
+				<input id="good6" type="radio" name="evaluation6" value="good">
+				<label for="good6">Bons</label>
+				<input id="verygood6" type="radio" name="evaluation6" value="verygood">
+				<label for="verygood6">Muito bons</label>
+				</p>
+				<p>*Como você avalia a estrutura e condições de preservação das salas de aula?
+				<br> 
+				<br>
+				<input id="verybad7" type="radio" name="evaluation7" value="verybad" required>
+				<label for="verybad7">Muito ruim</label>
+				<input id="bad7" type="radio" name="evaluation7" value="bad">
+				<label for="bad7">Ruim</label>
+				<input id="regular7" type="radio" name="evaluation7" value="regular">
+				<label for="regular7">Regular</label>
+				<input id="good7" type="radio" name="evaluation7" value="good">
+				<label for="good7">Boa</label>
+				<input id="verygood7" type="radio" name="evaluation7" value="verygood">
+				<label for="verygood7">Muito boa</label>
+				</p>
+				<p>*Como você avalia a estrutura e condições de preservação dos laboratórios de informática?
+				<br> 
+				<br>
+				<input id="verybad8" type="radio" name="evaluation8" value="verybad" required>
+				<label for="verybad8">Muito ruim</label>
+				<input id="bad8" type="radio" name="evaluation8" value="bad">
+				<label for="bad8">Ruim</label>
+				<input id="regular8" type="radio" name="evaluation8" value="regular">
+				<label for="regular8">Regular</label>
+				<input id="good8" type="radio" name="evaluation8" value="good">
+				<label for="good8">Boa</label>
+				<input id="verygood8" type="radio" name="evaluation8" value="verygood">
+				<label for="verygood8">Muito boa</label>
+				</p>
+				<p>*Como você avalia a estrutura e condições de preservação do câmpus?
+				<br> 
+				<br>
+				<input id="verybad9" type="radio" name="evaluation9" value="verybad" required>
+				<label for="verybad9">Muito ruim</label>
+				<input id="bad9" type="radio" name="evaluation9" value="bad">
+				<label for="bad9">Ruim</label>
+				<input id="regular9" type="radio" name="evaluation9" value="regular">
+				<label for="regular9">Regular</label>
+				<input id="good9" type="radio" name="evaluation9" value="good">
+				<label for="good9">Boa</label>
+				<input id="verygood9" type="radio" name="evaluation9" value="verygood">
+				<label for="verygood9">Muito boa</label>
+				</p>
+		</fieldset>
+		<fieldset>
+			<legend>Sugestão de melhorias</legend>
+			<p>Em sua opinião, quais dessas medidas você considera como as mais importantes para a melhoria do curso? (Você pode escolher mais de uma opção)</p>	
+				<input id="choose1" type="checkbox" name="choose" value="newequipments">
+				<label for="choose1">Aquisição de novos computadores</label>
+				<br>
+				<input id="choose2" type="checkbox" name="choose" value="newteachers">
+				<label for="choose2">Contratação de novos professores</label>
+				<br>
+				<input id="choose3" type="checkbox" name="choose" value="newclasses">
+				<label for="choose3">Reformulação da grade curricular</label>
+				<br>
+				<input id="choose4" type="checkbox" name="choose" value="newclassrooms">
+				<label for="choose4">Reforma estrutural das salas de aula e laboratórios</label>
+				<br>
+				<input id="choose5" type="checkbox" name="choose" value="newbooks">
+				<label for="choose5">Estabelecimento de novos convênios com editoras e bibliotecas</label>
+				<br>
+				<input id="choose6" type="checkbox" name="choose" value="newresearches">
+				<label for="choose6">Ampliação do espaço para a publicação de artigos acadêmicos e pesquisa</label>
+				<br>
+				<br>
+				<input id="choose7" type="checkbox" name="choose" value="otherreason">
+				<label for="choose7">Outro:</label>
+				<textarea name="anotherreasons" cols="50" rows="4" placeholder="Digite aqui"></textarea>
+				<br>
+				<br>
+				<br>
+				<p>Se desejar, envie uma foto com descrição do problema:
+				<br>
+				<br>
+				<input id="photo" type="file" name="insertedphoto">
+				<br>
+				<br>
+				<textarea name="description" cols="80" rows="8" placeholder="Digite aqui"></textarea>
+				</p>
+		</fieldset>
+		<br>
+		<input id="submitbutton" type="submit" name="submit" value="Enviar formulário"> 
+	</form>
+	<br>
+	<b>* Campos obrigatórios</b>
+</body>
+</html>
