@@ -1,0 +1,30 @@
+a[title] {
+	color: red; /*Qualquer elemento "a" que possui um atributo "title" receberá a cor "vermelha" */
+}
+
+img[alt="texto"] {
+color: red;  /*Qualquer elemento com o atributo "alt" carregado com a cadeia de caracteres "texto" receberá a cor vermelha*/
+}
+
+a[http^="http"] {
+	color: red; /*Qualquer elemeto com o atributo "href" que tenha seu valor COMEÇANDO (representado por "^") com "http"*/
+}
+
+img[src$="jpg"] {
+	color: red; /*Qualquer elemento com o atributo "src" que tenha seu valor TERMINANDO (representado por "$") com "jpg"*/
+}
+
+/* Operador "not()" */
+
+:not(a){ /*Seleciona todo elemento que não é um link.*/
+	...;
+}
+
+p:not(.destaque){ /*Seleciona todo parágrafo que não possui a classe destaque.*/
+	...; 
+}
+
+img:not([alt]){	/* Seleciona toda imagem que possui o atributo alt e aplico o display none. */
+	display: none;
+}
+

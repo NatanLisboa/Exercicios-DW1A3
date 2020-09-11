@@ -1,0 +1,39 @@
+/*::first-letter e ::first-line */
+
+p.intro::first-letter {
+	font-size: 300%;}
+p.intro::first-line {
+	font-weight: bold;}
+	
+/* Links */
+
+a:link /*Define estilo do link que ainda não foi clicado */
+{
+	color: blue;
+	text
+	-decoration: none;
+}
+
+a:visited /* Define o estilo do link que já recebeu cliques */
+{
+	color: purple;
+}
+
+a:hover /* Define o estilo do link quando o usuário passa o mouse sobre ele */
+{
+	color: blue;
+	text
+	-decoration: underline;
+}
+
+a:active  /* Define o estilo do link quando esse está sendo clicado pelo usuário */
+{
+	color: darkcyan;
+}
+
+
+a:focus {  /* Define o estilo do link quando o usuário dá um "missclick" ou click correto no link (sobrepõe o pseudo-elemento ":active")*/
+	color:#665544;
+}
+
+	

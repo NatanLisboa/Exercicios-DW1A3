@@ -1,0 +1,55 @@
+/*Descendência*/
+
+/*
+article a{
+	color: red; Insere essa formatação a todos os elementos <a> (e seus descendentes) descendentes de <article>
+}
+*/
+
+/*
+article p b{
+	color: green; Insere essa formatação a todos os elementos <b> que são descendentes de <p> que, por sua vez, são descendentes de article
+}
+*/
+
+/* Filho direto */
+
+/*
+article p > b {
+	color: yellow; Insere essa formatação a todos os elementos <b> que forem FILHOS DIRETOS de <p> 
+}
+*/
+
+/* Irmão adjacente */
+
+/*
+article p + a {
+	background: blue; Insere essa formatação a todos os elementos <a> que forem irmãos de <p> (Mesma geração) 
+	Obs: Não houveram alterações
+}
+*/
+ 
+/*
+article p + p {
+	background: red; Insere essa formatação a todos os elementos <p> que forem irmãos do primeiro <p> (Mesma geração
+	Obs: Não houveram alterações
+}
+*/
+
+/*
+article h3 ~ p{
+	background: gray; Insere essa formatação a todos os elementos <p> que sejam irmãos de <h3>
+}
+*/
+
+/*
+article:nth-child(1) a{
+	color: red; Insere essa formatação nos elementos <a> que sejam descendentes do <article> que é filho número 3 de seu pai
+}
+*/
+
+/*
+article:nth-child(3) a{
+	color: red; Insere essa formatação nos elementos <a> que sejam descendentes do <article> que é filho número 3 de seu pai
+}
+*/
