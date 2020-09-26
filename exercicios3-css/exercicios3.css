@@ -1,1 +1,31 @@
+img{
+	width: 350px;
+	height: 350px;
+}
+figcaption{
+	font-size: 12px;
+}
 
+/*Tabela Brasileirão*/
+
+g6{
+	color: blue;
+}
+g8{
+	color: orange;
+}
+g14{
+	color: green;
+}
+z4{
+	color: red;
+}
+v{
+	color: green;
+}
+e{
+	color: gray;
+}
+d{
+	color: red;
+}
