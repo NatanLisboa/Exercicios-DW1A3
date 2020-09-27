@@ -1,1 +1,152 @@
+#calculadora{
+	width: 200px;
+	height: 285px;
+	border: 3px;
+	border-style: solid;
+	border-color: lightgray;
+	position: static;
+	background-color: #bdbdbd;
+}
 
+#visor{
+	width: 187px;
+	height: 35px;
+	border: 2px;
+	border-style: outset;
+	border-color: white;
+	position: relative;
+	background-color: lightgray;
+	text-align: right;
+	top: 5px;
+	left: 3px;
+	right: 5px;
+	bottom: 10px;
+}
+
+#visor > fonte{
+	font-family: Arial;
+	font-size: 20px;
+	position: relative;
+	right: 10px;
+	top: 5px;
+	bottom: 5px;
+}
+
+.cantoarredondado {
+	background:#333;
+	width:450px;
+	margin: auto;
+	padding:10px;
+	text-align:center;
+	 
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	 border-radius:7px;
+}
+
+.notzeroandplus{
+	width: 40px;
+	height: 40px;
+	
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: #d3d3d3;
+	position: relative;
+}
+
+.zero{
+	width: 84px;
+	height: 40px;
+	
+	border: 2px;
+	border-style: outset;
+	border-color: white;
+	background-color: #a8a8a8;
+	position: relative;
+}
+
+.plus{
+	width: 40px;
+	height: 84px;
+	
+	border: 2px;
+	border-style: outset;
+	border-color: white;
+	background-color: #a8a8a8;
+	position: relative;
+}
+
+#ac{
+	top: 20px;
+	right: 8px;
+}
+
+#percent{
+	top: 20px;
+	right: 6px;
+}
+#times{
+	top: 20px;
+	right: 4px;
+}
+#dividedby{
+	top: 20px;
+	right: 2px;
+}
+#seven{
+	top: 24px;
+	right: 8px;
+}
+#eight{
+	top: 24px;
+	right: 6px;
+}
+#nine{
+	top: 24px;
+	right: 4px;
+}
+#pow{
+	top: 24px;
+	right: 2px;
+}
+#four{
+	top: 28px;
+	right: 8px;
+}
+#five{
+	top: 28px;
+	right: 6px;
+}
+#six{
+	top: 28px;
+	right: 4px;
+}
+#minus{
+	top: 28px;
+	right: 2px;
+}
+#one{
+	top: 32px;
+	right: 30px;
+}
+#two{
+	top: 32px;
+	right: 28px;
+}
+#three{
+	top: 32px;
+	right: 26px;
+}
+#dot{
+	top: 16px;
+	right: 4px;
+}
+#zero{
+	top: 16px;
+	right: 8px;
+}
+#plus{
+	bottom: 8px;
+	right: 2px;
+}
